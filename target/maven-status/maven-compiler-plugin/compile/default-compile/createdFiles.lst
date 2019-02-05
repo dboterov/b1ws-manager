@@ -1,0 +1,15 @@
+co\manager\rest\ApplicationConfig.class
+co\manager\dto\ResponseDTO.class
+co\manager\b1ws\package-info.class
+co\manager\b1ws\MsgHeader.class
+co\manager\util\Constants.class
+co\manager\b1ws\LogoutResponse.class
+co\manager\b1ws\LoginResponse.class
+co\manager\rest\HeaderDecorationFilter.class
+co\manager\b1ws\LoginService.class
+co\manager\b1ws\Logout.class
+co\manager\b1ws\ObjectFactory.class
+co\manager\ejb\IGBApplicationBean.class
+co\manager\b1ws\LoginServiceSoap.class
+co\manager\rest\SessionREST.class
+co\manager\b1ws\Login.class
