@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6ad2c48-0348-46d8-9e77-eb7a8d34b045" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/co/manager/persistence/entity/User_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/co/manager/login/persistence/entity/User_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/co/manager/persistence/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/co/manager/persistence/entity/User_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/co/manager/persistence/facade/PersistenceConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/co/manager/persistence/facade/UserFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/LoginResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/LoginServiceSoap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/Logout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/LogoutResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/MsgHeader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/ObjectFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/dto/ResponseDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/ejb/IGBApplicationBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/package-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/persistence/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/persistence/entity/User_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/persistence/facade/PersistenceConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/persistence/facade/UserFacade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/rest/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/rest/HeaderDecorationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/rest/SessionREST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/manager/WEB-INF/classes/main/java/co/manager/login/util/Constants.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -71,12 +45,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="386" />
+          <entry key="txt" value="12" />
           <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="386" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="35" />
         </counts>
       </usages-collector>
@@ -178,15 +154,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="manager" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="b1ws-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="b1ws-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -230,12 +197,20 @@
       <option name="presentableId" value="Default" />
       <updated>1549385069749</updated>
     </task>
+    <task id="LOCAL-00001" summary="Correcciones">
+      <created>1549401102781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549401102781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -244,7 +219,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,6 +239,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correcciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcciones" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
