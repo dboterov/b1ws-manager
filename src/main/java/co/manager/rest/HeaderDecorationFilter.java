@@ -48,39 +48,8 @@ public class HeaderDecorationFilter implements Filter {
         ((HttpServletResponse) response).addHeader("Expires", "0");
 
         HttpServletRequest req = (HttpServletRequest) request;
-        //CONSOLE.log(Level.FINE, "Processing {0} method", req.getMethod());
-        //if (req.getMethod().equals("OPTIONS") || validateAuthorizationToken(req)) {
-        //    CONSOLE.log(Level.FINE, "Processing continued");
         chain.doFilter(request, response);
-        //} else {
-        //    CONSOLE.log(Level.FINE, "Processing halted with error");
-        //    ((HttpServletResponse) response).sendError(HttpServletResponse.SC_UNAUTHORIZED);
-        //}
     }
-
-    /*private boolean validateAuthorizationToken(HttpServletRequest request) {
-        try {
-            String path = request.getPathInfo();
-            String authorizationToken = request.getHeader("Authorization");
-            CONSOLE.log(Level.INFO, "Procesando solicitud a [{0}] desde [{1}]",
-                    new Object[]{request.getMethod() + " " + path, request.getRemoteAddr()});
-            CONSOLE.log(Level.FINE, "Validando token [{0}]", authorizationToken);
-            if (appBean.isPathExcludedFromTokenValidation(path)) {
-                CONSOLE.log(Level.FINE, "La ruta solicitada no requiere validacion de token");
-                return true;
-            }
-
-            Algorithm algorithm = Algorithm.HMAC256(appBean.obtenerValorPropiedad("jwt.secret"));
-            JWTVerifier verifier = JWT.require(algorithm).build();
-            DecodedJWT jwt = verifier.verify(authorizationToken);
-            CONSOLE.log(Level.FINE, "User in token: {0}", jwt.getClaim("username").asString());
-
-            return true;
-        } catch (Exception e) {
-            CONSOLE.log(Level.SEVERE, "Ocurrio un error al validar el token. ", e);
-            return false;
-        }
-    }*/
 
     @Override
     public void destroy() {
