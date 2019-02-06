@@ -5,6 +5,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
+
 import javax.inject.Inject;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -20,7 +21,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
  * @author jguisao
  */
 @WebFilter("/res/*")
@@ -48,17 +48,17 @@ public class HeaderDecorationFilter implements Filter {
         ((HttpServletResponse) response).addHeader("Expires", "0");
 
         HttpServletRequest req = (HttpServletRequest) request;
-        CONSOLE.log(Level.FINE, "Processing {0} method", req.getMethod());
-        if (req.getMethod().equals("OPTIONS") || validateAuthorizationToken(req)) {
-            CONSOLE.log(Level.FINE, "Processing continued");
-            chain.doFilter(request, response);
-        } else {
-            CONSOLE.log(Level.FINE, "Processing halted with error");
-            ((HttpServletResponse) response).sendError(HttpServletResponse.SC_UNAUTHORIZED);
-        }
+        //CONSOLE.log(Level.FINE, "Processing {0} method", req.getMethod());
+        //if (req.getMethod().equals("OPTIONS") || validateAuthorizationToken(req)) {
+        //    CONSOLE.log(Level.FINE, "Processing continued");
+        chain.doFilter(request, response);
+        //} else {
+        //    CONSOLE.log(Level.FINE, "Processing halted with error");
+        //    ((HttpServletResponse) response).sendError(HttpServletResponse.SC_UNAUTHORIZED);
+        //}
     }
 
-    private boolean validateAuthorizationToken(HttpServletRequest request) {
+    /*private boolean validateAuthorizationToken(HttpServletRequest request) {
         try {
             String path = request.getPathInfo();
             String authorizationToken = request.getHeader("Authorization");
@@ -80,7 +80,7 @@ public class HeaderDecorationFilter implements Filter {
             CONSOLE.log(Level.SEVERE, "Ocurrio un error al validar el token. ", e);
             return false;
         }
-    }
+    }*/
 
     @Override
     public void destroy() {

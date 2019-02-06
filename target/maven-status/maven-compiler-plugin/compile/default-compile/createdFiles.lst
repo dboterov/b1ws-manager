@@ -3,6 +3,7 @@ co\manager\dto\ResponseDTO.class
 co\manager\b1ws\package-info.class
 co\manager\b1ws\MsgHeader.class
 co\manager\util\Constants.class
+co\manager\util\IGBUtils.class
 co\manager\b1ws\LogoutResponse.class
 co\manager\b1ws\LoginResponse.class
 co\manager\rest\HeaderDecorationFilter.class
