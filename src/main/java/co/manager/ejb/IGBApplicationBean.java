@@ -2,7 +2,7 @@ package co.manager.ejb;
 
 import co.manager.dto.ResponseDTO;
 import co.manager.util.Constants;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 import org.jasypt.properties.EncryptableProperties;
 
