@@ -11,7 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @ApplicationScoped
-@Named("poolManager")
+@Named("sessionPoolManager")
 public class SessionPoolManager {
     private static final Logger CONSOLE = Logger.getLogger(SessionPoolManager.class.getSimpleName());
 
