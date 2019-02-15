@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 @ApplicationScoped
 @Named("sessionPoolManager")
-public class SessionPoolManager {
+public class SessionPoolManager implements Serializable {
     private static final Logger CONSOLE = Logger.getLogger(SessionPoolManager.class.getSimpleName());
 
     private LinkedList<B1WSSession> availableSessions = new LinkedList<>();
